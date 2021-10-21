@@ -1,0 +1,87 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+    <fieldset>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <br>
+    <h3>Our 12" wood-fired pizzas are evailabe for delivery. Build</h3>
+    <h3>your custom pizza and we'll deliver it within an hour</h3>
+    <br>
+    <p>Your Information</p>
+    <table>
+        <body>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="fullname"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="address"></td> 
+            </tr>
+            <tr>
+                <td>Telpon</td>
+                <td><input type="number" name="Telp"td>
+            <tr>
+                <td>Email</td>
+                <td><input type="emaitdl" name="Email">
+            </tr>
+        </body>
+    </table>
+    <br>
+    Delivery instructions : <textarea name="Delivery" id="" cols="30" rows="10"></textarea>
+    <br>
+    <h3>Design Your Dream Pizza :</h3>
+    <p>Pizza specs</p>
+    <br>
+    <p>Crust (Choose One) :</p>
+    <form action="/action_page.php">
+        <input type="radio" id="specs1" name="specs1" value="Classic white">
+        <label for="specs1">Classic white</label>
+        <br>
+        <input type="radio" id="specs2" name="specs2" value="Multigrain">
+        <label for="specs2">Multigrain</label>
+        <br>
+        <input type="radio" id="specs1" name="specs1" value="Cheese-stuffed crust">
+        <label for="specs3">Cheese-stuffed crust</label>
+        <br>
+        <input type="radio" id="specs1" name="specs1" value="Gluten-free">
+        <label for="specs4">Gluten-free</label>
+    <p>Topping (Choose as many as you want) :</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="Topping1" name="Topping1" value="Red sauce">
+        <label for="Topping1">Red sauce</label>
+        <br>
+        <input type="checkbox" id="Topping2" name="Topping2" value="White sauce">
+        <label for="Topping2">White sauce</label>
+        <br>
+        <input type="checkbox" id="Topping3" name="Topping3" value="Mozzarella Cheese">
+        <label for="Topping3">Mozzarella Cheese</label>
+        <br>
+        <input type="checkbox" id="Topping4" name="Topping4" value="Pepperoni">
+        <label for="Topping4">Pepperoni</label>
+        <br>
+        <input type="checkbox" id="Topping5" name="Topping5" value="Mushrooms">
+        <label for="Topping5">Mushrooms</label>
+        <br>
+        <input type="checkbox" id="Topping6" name="Topping6" value="Peppers">
+        <label for="Topping6">Peppers</label>
+        <br>
+        <input type="checkbox" id="Topping7" name="Topping7" value="Anchovies">
+        <label for="Topping7">Anchovies</label>
+        <br>
+        <p>Number :</p>
+        <label>How many Pizza : <input type="number" name="pizza" min="1" max="6"></label>
+        <br>
+        <p><input type="submit"> <input type="reset" value="reset"></p>
+        
+    </form>
+    </fieldset>
+   
+</body>
+</html>
